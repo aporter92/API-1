@@ -1,0 +1,53 @@
+/* .mb-3 {
+    position: relative;
+    top: 0px;
+    color: white;
+    font-family: sans-serif;
+} */
+.p-5 {
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+
+}
+.button {
+    position: relative;
+    top: 200px;
+    font-family: sans-serif;
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    background-color: white;
+
+    
+}
+
+.ghiblilogo {
+position: relative;
+left: 550px;
+height: 90px;
+bottom: 50px; 
+}
+
+p {
+    position: relative;
+    vertical-align: center;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.nextsec {
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.characters {
+    position: relative;
+    background-color:rgb(116, 175, 230)
+
+} 
+

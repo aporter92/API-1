@@ -42,12 +42,27 @@ p {
 .chars {
     font-family: sans-serif;
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 .characters {
     position: relative;
-    background-color:rgb(116, 175, 230)
+    text-align: left;
+    background-color:rgb(40, 75, 109);
+    color: white;
+    list-style-type: none;
 
 } 
+.films {
+    position: relative;
+    text-align: left;
+    background-color:rgb(40, 75, 109);
+    color: white;
+    list-style-type: none;
+
+} 
+
+body {
+    background-color: rgb(40, 75, 109);
+}
 

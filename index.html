@@ -12,17 +12,19 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Ghibli</a>
+        
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+              <a class="navbar-brand" href="#">Studio Ghibli</a>
               <a class="nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#chars">Characters</a>
               <a class="nav-link" href="#filmsz">Films</a>
+              <img class = "ghiblilogo" src = 'Assets/Studio_Ghibli_logo.png'>
              <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
             </div>
           </div>
@@ -32,12 +34,12 @@
   
 
     <!-- Jumbotron -->  
-    <div class="p-5 text-center bg-image" style = "background-image: url('assets/ghibli.jpeg');height: 700px;">
+    <div class="p-5 text-center bg-image" style = "background-image: url('assets/hero.jpg');height: 700px;">
       <div class="mask" style="background-color: rgba(0, 0, 0, 0);">
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white">  
       <h1 class="mb-3"></h1>
-      <img class = "ghiblilogo" src = 'Assets/Studio_Ghibli_logo.png'>
+      
         <h4 class="mb-3"></h4>
         <!-- <button class="button" type = "submit" >Show Me Info</a> -->
       </div>
@@ -46,8 +48,8 @@
       </div>
       <div class = "films">
         <h2 style = text-align:center id = "filmsz"><u>Films</u></h2>
-        <p >
-          <ul id ="films">
+        <p>
+          <ul id ="films" >
             <!-- cross fingers that JavaScript loads here -->
           </ul>
         </p>

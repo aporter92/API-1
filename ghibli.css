@@ -36,6 +36,11 @@ max-height: 45px;
 
 }
 
+#info {
+    text-align: left;
+    left:100px;
+    padding-left: 20px;
+}
 p {
     position: relative;
     top: 100px;
@@ -44,38 +49,32 @@ p {
     /* text-align: right; */
 }
 
-.chars {
-    font-family: sans-serif;
-    position: relative;
-    text-align: left;
-}
-
 .characters {
     position: relative;
-    text-align: center;
-    left: 500px;
-    background-color:rgb(40, 75, 109);
-    color: white;
+    text-align: right;
+    left: 200px;
+    background-color:white;
+    color: rgb(40, 75, 109);
     list-style-type: none;
 
 } 
 .films {
     position: relative;
     text-align: center;
+    padding-top: 20px;
     background-color:rgb(40, 75, 109);
     color: white;
     list-style-type: none;
 
 } 
 
-body {
-    background-color: rgb(40, 75, 109);
-}
-
 img,svg {
     size: auto;
     max-height: 300px;
+    max-width: 500px;
     position: relative;
     right:400px;
+    bottom: 80px;
 }
+
 
